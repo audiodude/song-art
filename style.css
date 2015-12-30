@@ -1,0 +1,20 @@
+html, body {
+  background-color: #ccc;
+  margin: 0
+}
+
+#square {
+  background-color: pink;
+  width: 300px;
+  height: 300px;
+  text-align: justify;
+  text-align-last: justify;
+  word-wrap: break-word;
+}
+
+#text {
+  color: #fff;
+  line-height: 65px;
+  font-family: 'Patua One';
+  font-size: 50px;
+}
