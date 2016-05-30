@@ -17,24 +17,12 @@ Then visit http://localhost:3000 and screen grab the art! Edit the colors and te
 source file. Very basic.
 
 ## Automation
-No further attempts have made at automation because PhantomJS 2.0 currently doesn't support
-WOFF fonts which are used in Google Web Fonts. Additionally, I had lots of problems with the
-`localToRemoteUrlAccessEnabled` [setting](http://phantomjs.org/api/webpage/property/settings.html)
-of PhantomJS. I think it had something to do with the fact that I was accessing localhost. But
-either way, I would get the following in the console:
+PhantomJS version 2.1, as promised, provides support for WOFF fonts such as
+those used in Google Web Fonts and this project. Surprisingly, the original
+capture script I wrote almost 6 months ago worked 100% accurately this time
+around.
 
-```
-ReferenceError: Can't find variable: $
-   http://localhost:3000/main.js:3 in global code
-```
+### Next steps
 
-Which indicated that somehow jQuery had failed to load.
-
-### No further automation
-
-Because of this basic failure of automating the capturing of the screen shots, I didn't go through
-the trouble of trying to automate anything else, like pulling song titles using the Soundcloud API
-for example.
-
-It seems like it would be interesting to do this as a web app for Soundcloud or YouTube users for
-creating thumbnails for their assets. I could function as a single page web app.
+Next steps are to automate my soundcloud feed, so that I can generate "title"
+cover art for all of my 90 songs automatically.
