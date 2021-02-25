@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Track listing</title>
+</head>
+<body>
+  <ul>
+  {% for track in tracks %}
+    <li>{{track['title']}}</li>
+  {% endfor %}
+  </ul>
+</body>
+</html>

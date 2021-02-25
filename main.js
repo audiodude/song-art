@@ -1,4 +1,4 @@
-var SQUARE_SIZE = 300;
+var SQUARE_SIZE = 1000;
 
 function adjust_text() {
   var div = $('#text');

@@ -22,6 +22,12 @@ those used in Google Web Fonts and this project. Surprisingly, the original
 capture script I wrote almost 6 months ago worked 100% accurately this time
 around.
 
+To capture the title card automatically and save it to `title.png`, run:
+
+```
+$ phantomjs screenshot.js
+```
+
 ### Next steps
 
 Next steps are to automate my soundcloud feed, so that I can generate "title"
