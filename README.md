@@ -1,5 +1,8 @@
 # song-art
+
 Simple HTML page to generate art for songs at http://soundcloud.com/travis-briggs
+
+*The original prototype code for automatically creating the art for a Soundcloud account is in the tag [python-attempt](https://github.com/audiodude/song-art/tree/python-attempt)*
 
 Enter the song-art directory and run a simple Python HTTP server:
 
